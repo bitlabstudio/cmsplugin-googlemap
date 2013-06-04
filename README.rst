@@ -32,6 +32,13 @@ Add ``cmsplugin_googlemap`` to your ``INSTALLED_APPS``::
         'cmsplugin_googlemap',
     )
 
+If you were using the googlemap plugin that comes with django-cms you need
+uninstall it first, like so::
+
+    ./manage.py cms uninstall plugins GoogleMapPlugin
+    psql -U role dbname -h localhost
+    DROP TABLE cmsplugin_googlemap;
+
 Run the South migrations::
 
     ./manage.py migrate cmsplugin_googlemap
