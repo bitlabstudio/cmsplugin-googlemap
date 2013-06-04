@@ -1,6 +1,10 @@
 === ongoing ===
 
 
+=== 0.1.1 ===
+
+- Fixed wrong MANIFEST and reinitialized repo
+
 === 0.1 ===
 
 Initial commit
