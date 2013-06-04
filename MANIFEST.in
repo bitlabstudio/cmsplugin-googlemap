@@ -1,0 +1,9 @@
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+graft cmsplugin_googlemaps
+global-exclude *.orig *.pyc *.log *.swp
+prune cmsplugin_googlemaps/tests/coverage
+prune cmsplugin_googlemaps/.ropeproject
