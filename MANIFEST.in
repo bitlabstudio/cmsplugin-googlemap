@@ -3,7 +3,7 @@ include LICENSE
 include DESCRIPTION
 include CHANGELOG.txt
 include README.md
-graft cmsplugin_googlemaps
+graft cmsplugin_googlemap
 global-exclude *.orig *.pyc *.log *.swp
-prune cmsplugin_googlemaps/tests/coverage
-prune cmsplugin_googlemaps/.ropeproject
+prune cmsplugin_googlemap/tests/coverage
+prune cmsplugin_googlemap/.ropeproject
