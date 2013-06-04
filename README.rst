@@ -1,7 +1,11 @@
 CMS Plugin Google Map
 ====================
 
-An app for integrating a google map in your cms layout.
+An app for integrating a google map in your cms layout. This is an exact
+copy of [django-cms googlemape](https://github.com/divio/django-cms/tree/develop/cms/plugins/googlemap).
+
+The only difference is that all [fields](https://github.com/bitmazk/cmsplugin-googlemap/blob/master/cmsplugin_googlemap/models.py#L25)
+except city are now optional.
 
 Prerequisites
 -------------
@@ -47,7 +51,7 @@ Run the South migrations::
 Usage
 -----
 
-TODO: Describe usage
+Simply add the plugin to your cms placeholders.
 
 Roadmap
 -------
