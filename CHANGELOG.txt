@@ -1,5 +1,6 @@
 === ongoing ===
 
+- removed that ugly white info window
 
 === 0.1.2 ===
 
