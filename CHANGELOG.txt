@@ -1,5 +1,7 @@
 === ongoing ===
 
+- using small zoom controls to fix display
+
 === 0.1.3 ===
 
 - removed that ugly white info window
