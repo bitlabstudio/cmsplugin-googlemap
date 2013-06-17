@@ -1,5 +1,8 @@
 === ongoing ===
 
+
+=== 0.1.4 ===
+
 - using small zoom controls to fix display
 
 === 0.1.3 ===
