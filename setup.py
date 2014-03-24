@@ -26,7 +26,6 @@ setup(
     install_requires=[
         'Django>=1.4.3',
         'South',
-        'django-cms',
         'Pillow',
     ],
     tests_require=[
